@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./css/index.css">
+    <title>E-commers website</title>
+</head>
+<body class="font-[satoshi]">
+    <!-- announce section -->
+    <section class="bg-[#000000] text-white">
+        <div class="container mx-auto py-[9px] text-[14px] relative">
+            <div class="text-center">
+                Sign up and get 20% off to your first order. <span class="hover:underline"><a href="#">Sign Up Now</a></span> 
+            </div>
+            <div class="absolute top-[9px] right-[0] cursor-pointer">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </section>
+    <!-- nav bar -->
+    <nav class="py-[24px]">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="font-[integral-cf] text-[32px] cursor-default">
+                SHOP.CO
+            </div>
+            <ul class="flex justify-center gap-[24px]">
+                <li><a href="#">Shop <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a href="#">On Sale</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Brands</a></li>
+            </ul>
+            <div class="bg-[#F0F0F0] px-[16px] py-[12px] rounded-[62px] w-[44%]">
+                <i class="fa-solid fa-magnifying-glass opacity-[.4] cursor-pointer"></i>
+                <input type="search" class="focus:outline-none ml-[12px]" placeholder="Search for products...">
+            </div>
+            <div class="flex gap-[14px] items-center">
+                <i class="ri-shopping-cart-2-line cursor-pointer text-[18px]"></i>
+                <i class="fa-regular fa-circle-user cursor-pointer text-[18px]"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- hero section -->
+    <section class="bg-[url(./img/hero-img.png)] bg-cover py-[108px]">
+        <div class="container mx-auto grid grid-cols-2 gap-[96px]">
+            <div>
+                <h1 class="text-[64px] font-bold font-[integral-cf]">FIND CLOTHES THAT MATCHES YOUR STYLE</h1>
+                <p class="text-[16px] my-[32px]">Browse through our diverse range of meticulously crafted garments, designed to bring out your individuality and cater to your sense of style.</p>
+                <button class="py-[15px] px-[66px] bg-black rounded-full text-white cursor-pointer">Shop Now</button>
+                <div class="flex mt-[48px]">
+                    <div class="pr-[32px] border-r-1 border-[#0000001A]">
+                        <span class="text-[40px] font-bold">200+</span> <br>
+                        <span>International Brands</span>
+                    </div>
+                    <div class="px-[32px] border-r-1 border-[#0000001A]">
+                        <span class="text-[40px] font-bold">2,000+</span> <br>
+                        <span>High-Quality Products</span>
+                    </div>
+                    <div class="pl-[32px] border-r-1 border-[#0000001A]">
+                        <span class="text-[40px] font-bold">30,000+</span> <br>
+                        <span>Happy Customers</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-two -->
+    <section class="bg-black py-[42px]">
+        <div class="container mx-auto flex justify-between items-center">
+            <img src="./img/logos/versace.png" alt="logo">
+            <img src="./img/logos/zara.png" alt="logo">
+            <img src="./img/logos/gucci.png" alt="logo">
+            <img src="./img/logos/prada.png" alt="logo">
+            <img src="./img/logos/calvin.png" alt="logo">
+        </div>
+    </section>
+    <!-- section-three -->
+    <section>
+        <div class="container pt-[72px] pb-[64px] mx-auto border-b-1 border-[#0000001A]">
+            <h2 class="text-[48px] font-bold text-center mb-[55px] font-[integral-cf]">NEW ARRIVALS</h2>
+            <div class="grid grid-cols-4 gap-[20px] mb-[36px]">
+                <div>
+                    <img src="./img/products/product-1.png" class="w-full pb-[16px]" alt="img">
+                    <h6 class="text-[20px] font-bold pb-[8px]">T-shirt with Tape Details</h6>
+                    <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <span class="text-black ml-[12px]">4.5/5</span>
+                    </div>
+                    <p class="text-[24px] font-bold">$120</p>
+                </div>
+                <div>
+                    <img src="./img/products/product-2.png" class="w-full pb-[16px]" alt="img">
+                    <h6 class="text-[20px] font-bold pb-[8px]">Skinny Fit Jeans</h6>
+                    <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <span class="text-black ml-[12px]">3.5/5</span>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                        <p class="text-[24px] font-bold">$240</p>
+                        <p class="text-[24px] font-bold text-[#00000066]">$260</p>
+                        <p class="text-[12px] font-medium py-[6px] px-[13.5px] text-[#FF3333] bg-[#FF33331A] rounded-full">-20%</p>
+                    </div>
+                </div>
+                <div>
+                    <img src="./img/products/product-3.png" class="w-full pb-[16px]" alt="img">
+                    <h6 class="text-[20px] font-bold pb-[8px]">Checkered shirt</h6>
+                    <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <span class="text-black ml-[12px]">4.5/5</span>
+                    </div>
+                    <p class="text-[24px] font-bold">$180</p>
+                </div>
+                <div>
+                    <img src="./img/products/product-4.png" class="w-full pb-[16px]" alt="img">
+                    <h6 class="text-[20px] font-bold pb-[8px]">Sleeve Striped T-shirt</h6>
+                    <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <span class="text-black ml-[12px]">4.5/5</span>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                        <p class="text-[24px] font-bold">$130</p>
+                        <p class="text-[24px] font-bold text-[#00000066]">$160</p>
+                        <p class="text-[12px] font-medium py-[6px] px-[13.5px] text-[#FF3333] bg-[#FF33331A] rounded-full">-30%</p>
+                    </div>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <button class="text-[16px] py-[15px] px-[80px] border-1 border-[#0000001A] font-medium rounded-full cursor-pointer">View All</button>
+            </div>
+        </div>
+    </section>
+    <!-- section-four-->
+    <section>
+        <div class="container pt-[64px] mx-auto">
+            <h2 class="text-[48px] font-bold text-center mb-[55px] font-[integral-cf] ">top selling</h2>
+            <div class="grid grid-cols-4 gap-[20px] mb-[36px]">
+                <div>
+                    <img src="./img/products/product-5.png" class="w-full pb-[16px]" alt="img">
+                    <h6 class="text-[20px] font-bold pb-[8px]">Vertical Striped Shirt</h6>
+                    <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="text-black ml-[12px]">5.0/5</span>
+                    </div>
+                    <div class="flex items-center gap-[10px]">
+                        <p class="text-[24px] font-bold">$212</p>
+                        <p class="text-[24px] font-bold text-[#00000066]">$232</p>
+                        <p class="text-[12px] font-medium py-[6px] px-[13.5px] text-[#FF3333] bg-[#FF33331A] rounded-full">-20%</p>
+                    </div>
+                    
+                </div>
+                <div>
+                    <img src="./img/products/product-6.png" class="w-full pb-[16px]" alt="img">
+                    <h6 class="text-[20px] font-bold pb-[8px]">Courage Graphic T-shirt</h6>
+                    <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="text-black ml-[12px]">4.0/5</span>
+                    </div>
+                    <p class="text-[24px] font-bold">$145</p>
+                </div>
+                <div>
+                    <img src="./img/products/product-7.png" class="w-full pb-[16px]" alt="img">
+                    <h6 class="text-[20px] font-bold pb-[8px]">Loose Fit Bermuda Shorts</h6>
+                    <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <span class="text-black ml-[12px]">3.0/5</span>
+                    </div>
+                    <p class="text-[24px] font-bold">$80</p>
+                </div>
+                <div>
+                    <img src="./img/products/product-8.png" class="w-full pb-[16px]" alt="img">
+                    <h6 class="text-[20px] font-bold pb-[8px]">Faded Skinny Jeans</h6>
+                    <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star-half"></i>
+                        <span class="text-black ml-[12px]">4.5/5</span>
+                    </div>
+                    <p class="text-[24px] font-bold">$210</p>
+                </div>
+            </div>
+            <div class="flex justify-center">
+                <button class="text-[16px] py-[15px] px-[80px] border-1 border-[#0000001A] font-medium rounded-full cursor-pointer">View All</button>
+            </div>
+        </div>
+    </section>
+    <!-- section-five -->
+    <section class="py-[80px]">
+        <div class="container mx-auto">
+            <div class="w-full py-[74px] px-[64px] bg-[#F0F0F0] rounded-[40px]">
+                <h4 class="text-[48px] font-bold text-center font-[integral-cf] mb-[64px]">BROWSE BY dress STYLE</h4>
+                <div class="grid grid-cols-3 gap-[20px]">
+                   <div class="bg-[url(./img/style-man/image-1.png)] bg-cover h-[290px] rounded-[20px] py-[25px] px-[36px] text-[36px] font-bold">
+                        Casual
+                    </div> 
+                   <div class="bg-[url(./img/style-man/image-2.png)] col-span-2 bg-cover h-[290px] rounded-[20px] py-[25px] px-[36px] text-[36px] font-bold">
+                        Formal
+                    </div> 
+                   <div class="bg-[url(./img/style-man/image-3.png)] col-span-2 bg-cover h-[290px] rounded-[20px] py-[25px] px-[36px] text-[36px] font-bold">
+                        Casual
+                    </div> 
+                   <div class="bg-[url(./img/style-man/image-4.png)] bg-cover h-[290px] rounded-[20px] py-[25px] px-[36px] text-[36px] font-bold">
+                        Formal
+                    </div> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-six -->
+    <section>
+        <div class="container mx-auto">
+            <div class="flex justify-between items-end mb-[40px]">
+                <h4 class="text-[48px] font-bold font-[integral-cf]">OUR HAPPY CUSTOMERS</h4>
+                <div class="text-[20px] flex gap-[16px]">
+                    <i class="fa-solid fa-arrow-left cursor-pointer "></i>
+                    <i class="fa-solid fa-arrow-right cursor-pointer "></i>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-seven -->
+    <section>
+        <div class="container mx-auto relative">
+            <div class="w-full h-[400px] bg-red-500"></div>
+            <!-- It is not completed -->
+            <div class="py-[43px] px-[64px] rounded-[20px] bg-[#000000] flex justify-between absolute bottom-[-25%]">
+                <h6 class="text-[40px] w-[44%] text-white font-bold font-[integral-cf]">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h6>
+                <div class="flex flex-col items-end gap-[14px]">
+                    <div class="w-[348px] bg-white px-[16px] py-[12px] rounded-full flex gap-[12px] items-center">
+                        <i class="fa-solid fa-envelope text-[20px] text-[#00000066]"></i>
+                        <input type="mail" class="text-[16px] focus:outline-none" placeholder="Enter your email address">
+                    </div>
+                    <button class="text-[16px] font-medium w-[348px] bg-white px-[16px] py-[12px] rounded-full cursor-pointer">Subscribe to Newsletter</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="pt-[180px] pb-[80px] bg-[#F0F0F0]">
+        <div class="container mx-auto">
+            <!-- footer-top -->
+            <div class="flex justify-between">
+                <div class="w-[16.4%]">
+                    <h6 class="text-[33.45px] font-bold font-[integral-cf] mb-[25px]">SHOP.CO</h6>
+                    <p class="text-[14px] mb-[35px] text-[#00000099]">We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+                    <div class="flex gap-[12px] items-center">
+                        <div class="w-[28px] h-[28px] rounded-full border-1 border-[#00000033] flex items-center justify-center duration-[.6s] cursor-pointer footer-icons">
+                            <i class="fa-brands fa-twitter duration-[.6s]"></i>
+                        </div>
+                        <div class="w-[28px] h-[28px] rounded-full border-1 border-[#00000033] flex items-center justify-center duration-[.6s] cursor-pointer footer-icons">
+                            <i class="fa-brands fa-facebook-f duration-[.6s]"></i>
+                        </div>
+                        <div class="w-[28px] h-[28px] rounded-full border-1 border-[#00000033] flex items-center justify-center duration-[.6s] cursor-pointer footer-icons">
+                            <i class="fa-brands fa-instagram duration-[.6s]"></i>
+                        </div>
+                        <div class="w-[28px] h-[28px] rounded-full border-1 border-[#00000033] flex items-center justify-center duration-[.6s] cursor-pointer footer-icons">
+                            <i class="fa-brands fa-github duration-[.6s]"></i>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li class="text-[16px] font-medium uppercase mb-[26px]">Company</li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">About</a></li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Features</a></li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Works</a></li>
+                    <li><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Career</a></li>
+                </ul>
+                <ul>
+                    <li class="text-[16px] font-medium uppercase mb-[26px]">Help</li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Customer Support</a></li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Delivery Details</a></li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Terms & Conditions</a></li>
+                    <li><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Privacy Policy</a></li>
+                </ul>
+                <ul>
+                    <li class="text-[16px] font-medium uppercase mb-[26px]">FAQ</li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Account</a></li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Manage Deliveries</a></li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Orders</a></li>
+                    <li><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Payments</a></li>
+                </ul>
+                <ul>
+                    <li class="text-[16px] font-medium uppercase mb-[26px]">Resources</li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Free eBooks</a></li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Development Tutorial</a></li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">How to - Blog</a></li>
+                    <li><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Youtube Playlist</a></li>
+                </ul>
+            </div>
+            <hr class="mt-[50px] mb-[20px] text-[#0000001A]">
+            <!-- footer-bottom -->
+            <div class="flex justify-between items-center">
+                <div class="text-[14px] text-[#00000099]">
+                    Shop.co © 2000-2023, All Rights Reserved
+                </div>
+                <div class="flex gap-[12px] ">
+                    <a href="#">
+                        <img src="./img/badges/Badge.png" alt="img">
+                    </a>
+                    <a href="#">
+                        <img src="./img/badges/Badge (1).png" alt="img">
+                    </a>
+                    <a href="#">
+                        <img src="./img/badges/Badge (2).png" alt="img">
+                    </a>
+                    <a href="#">
+                        <img src="./img/badges/Badge (3).png" alt="img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>

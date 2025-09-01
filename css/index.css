@@ -1,0 +1,18 @@
+@font-face {
+    font-family: integral-cf;
+    src: url(../fonts/Fontspring-DEMO-integralcf-bold.otf);
+}
+@font-face {
+    font-family: satoshi;
+    src: url(../fonts/Satoshi-Regular.otf);
+}
+/* footer */
+.footer-icons{
+    
+}
+.footer-icons:hover{
+    background-color: #000;
+}
+.footer-icons:hover i{
+    color: #fff;
+}
