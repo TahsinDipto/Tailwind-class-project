@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" integrity="sha512-kJlvECunwXftkPwyvHbclArO8wszgBGisiLeuDFwNM8ws+wKIw0sv1os3ClWZOcrEB2eRXULYUsm8OVRGJKwGA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../css/index.css">
+    <title>E-commers website</title>
+</head>
+<body class="font-[satoshi]">
+    <!-- announce section -->
+    <section class="bg-[#000000] text-white">
+        <div class="container mx-auto py-[9px] text-[14px] relative">
+            <div class="text-center">
+                Sign up and get 20% off to your first order. <span class="hover:underline"><a href="#">Sign Up Now</a></span> 
+            </div>
+            <div class="absolute top-[9px] right-[0] cursor-pointer">
+                <i class="fa-solid fa-xmark"></i>
+            </div>
+        </div>
+    </section>
+    <!-- nav bar -->
+    <nav>
+        <div class="container mx-auto flex justify-between items-center border-b-1 border-[#0000001A] py-[24px] ">
+            <div class="font-[integral-cf] text-[32px] cursor-default">
+                <a href="../index.html">
+                    SHOP.CO
+                </a>
+            </div>
+
+            <ul class="flex justify-center gap-[24px]">
+                <li><a href="#">Shop <i class="fa-solid fa-chevron-down"></i></a></li>
+                <li><a href="#">On Sale</a></li>
+                <li><a href="#">New Arrivals</a></li>
+                <li><a href="#">Brands</a></li>
+                <li><a href="./casual.html">Casual</a></li>
+            </ul>
+            <div class="bg-[#F0F0F0] px-[16px] py-[12px] rounded-[62px] w-[44%]">
+                <i class="fa-solid fa-magnifying-glass opacity-[.4] cursor-pointer"></i>
+                <input type="search" class="focus:outline-none ml-[12px] w-[94%]" placeholder="Search for products...">
+            </div>
+            <div class="flex gap-[14px] items-center">
+                <i class="ri-shopping-cart-2-line cursor-pointer text-[18px]"></i>
+                <i class="fa-regular fa-circle-user cursor-pointer text-[18px]"></i>
+            </div>
+        </div>
+    </nav>
+    <!-- hero section -->
+    <section>
+        <div class="container mx-auto">
+            <div class="my-6 text-[16px] text-[#00000099] cursor-pointer">Home <i class="fa-solid fa-chevron-right"></i> <span class="text-black">Casual</span></div>
+            <div class="grid grid-cols-6 gap-12 ">
+                <div class="border border-[#0000001A] py-5 px-6 rounded-2xl mb-6">
+                    <div class="flex justify-between items-center mb-6">
+                        <p class="text-5 font-bold">Filters</p>
+                        <i class="ri-sound-module-line text-gray-400 text-5"></i>
+                    </div>
+                    <hr class="mb-6 border-gray-200">
+                    <div class="space-y-5">
+                        <div class="flex justify-between items-center mb-6 text-[#00000099] hover:cursor-pointer hover:text-black">
+                            <span class="text-[16px]">T-shirts</span>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="flex justify-between items-center text-[#00000099] hover:cursor-pointer hover:text-black">
+                            <span class="text-[16px]">Shorts</span>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="flex justify-between items-center text-[#00000099] hover:cursor-pointer hover:text-black">
+                            <span class="text-[16px]">Shirts</span>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="flex justify-between items-center text-[#00000099] hover:cursor-pointer hover:text-black">
+                            <span class="text-[16px]">Hoodie</span>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="flex justify-between items-center text-[#00000099] hover:cursor-pointer hover:text-black">
+                            <span class="text-[16px]">Jeans</span>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <hr class="mb-6 border-gray-200">
+                    <div>
+                        <div class="flex justify-between items-center mb-5 text-black">
+                            <p class="font-bold">Pricing</p>
+                            <i class="fa-solid fa-angle-up"></i>
+                        </div>
+                        <div class="mb-6">
+                            <input type="range" class="w-full accent-black" min="0" max="1000">
+                        </div>
+                    </div>
+                    <hr class="mb-6 border-gray-200">
+                    <div class="mb-6">
+                        <div class="flex justify-between items-center">
+                            <p class="font-bold">Colors</p>
+                            <i class="fa-solid fa-angle-up"></i>
+                        </div>
+                        <div class="flex justify-between items-center flex-wrap mt-5 gap-y-2">
+                            <div class="h-[32px] w-[32px] rounded-full bg-[#00C12B] border border-[#00000033]"></div>
+                            <div class="h-[32px] w-[32px] rounded-full bg-[#F50606] border border-[#00000033]"></div>
+                            <div class="h-[32px] w-[32px] rounded-full bg-[#F5DD06] border border-[#00000033]"></div>
+                            <div class="h-[32px] w-[32px] rounded-full bg-[#F57906] border border-[#00000033]"></div>
+                            <div class="h-[32px] w-[32px] rounded-full bg-[#06CAF5] border border-[#00000033]"></div>
+                            <div class="h-[32px] w-[32px] rounded-full bg-[#063AF5] border border-[#00000033] flex justify-center items-center text-white text-sm"><i class="fa-solid fa-check"></i></div>
+                            <div class="h-[32px] w-[32px] rounded-full bg-[#7D06F5] border border-[#00000033]"></div>
+                            <div class="h-[32px] w-[32px] rounded-full bg-[#F506A4] border border-[#00000033]"></div>
+                            <div class="h-[32px] w-[32px] rounded-full bg-[#FFFFFF] border border-[#00000033]"></div>
+                            <div class="h-[32px] w-[32px] rounded-full bg-[#000000] border border-[#00000033]"></div>
+                        </div>
+                    </div>
+                    <hr class="mb-6 border-gray-200">
+                    <div class="mb-6">
+                        <div class="flex justify-between items-center mb-5">
+                            <p class="font-bold">Colors</p>
+                            <i class="fa-solid fa-angle-up"></i>
+                        </div>
+                        <div class="flex flex-wrap gap-2">
+                            <button class="text-sm text-[#00000099] bg-[#F0F0F0] rounded-full py-2 px-4 hover:cursor-pointer hover:bg-black hover:text-white">XX-Small</button>
+                            <button class="text-sm text-[#00000099] bg-[#F0F0F0] rounded-full py-2 px-4 hover:cursor-pointer hover:bg-black hover:text-white">X-Small</button>
+                            <button class="text-sm text-[#00000099] bg-[#F0F0F0] rounded-full py-2 px-4 hover:cursor-pointer hover:bg-black hover:text-white">Small</button>
+                            <button class="text-sm text-[#00000099] bg-[#F0F0F0] rounded-full py-2 px-4 hover:cursor-pointer hover:bg-black hover:text-white">Medium</button>
+                            <button class="text-sm text-[#00000099] bg-[#F0F0F0] rounded-full py-2 px-4 hover:cursor-pointer hover:bg-black hover:text-white">Large</button>
+                            <button class="text-sm text-[#00000099] bg-[#F0F0F0] rounded-full py-2 px-4 hover:cursor-pointer hover:bg-black hover:text-white">X-Large</button>
+                            <button class="text-sm text-[#00000099] bg-[#F0F0F0] rounded-full py-2 px-4 hover:cursor-pointer hover:bg-black hover:text-white">2X-Large</button>
+                            <button class="text-sm text-[#00000099] bg-[#F0F0F0] rounded-full py-2 px-4 hover:cursor-pointer hover:bg-black hover:text-white">3X-Large</button>
+                            <button class="text-sm text-[#00000099] bg-[#F0F0F0] rounded-full py-2 px-4 hover:cursor-pointer hover:bg-black hover:text-white">4X-Large</button>
+                        </div>
+                    </div>
+                    <hr class="mb-6 border-gray-200">
+                    <div class="space-y-5">
+                        <div class="flex justify-between items-center text-black hover:cursor-pointer hover:text-black">
+                            <span class="font-bold text-[20px]">Dress Style</span>
+                            <i class="fa-solid fa-angle-up"></i>
+                        </div>
+                        <div class="flex justify-between items-center text-[#00000099] hover:cursor-pointer hover:text-black">
+                            <span class="text-[16px]">Casual</span>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="flex justify-between items-center text-[#00000099] hover:cursor-pointer hover:text-black">
+                            <span class="text-[16px]">Formal</span>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="flex justify-between items-center text-[#00000099] hover:cursor-pointer hover:text-black">
+                            <span class="text-[16px]">Party</span>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                        <div class="flex justify-between items-center text-[#00000099] hover:cursor-pointer hover:text-black">
+                            <span class="text-[16px]">Gym</span>
+                            <i class="fa-solid fa-chevron-right"></i>
+                        </div>
+                    </div>
+                    <button class="text-white bg-black text-sm w-full py-3 rounded-full mt-6 hover:cursor-pointer">Apply Filter</button>
+                </div>
+                <div class="col-span-5">
+                    <div class="w-full flex justify-between items-center mb-6">
+                        <h4 class="text-[32px] font-bold">Casual</h4>
+                        <div class="flex items-center">
+                            <p class="text-[#00000099] ">Showing 1-10 of 100 Products</p>
+                            <div class="ml-3">
+                                <span class="text-[#00000099]">Sort by: </span>
+                                <select class="foocus:outline-none focus:border-none">
+                                    <option>Most Popular</option>
+                                    <option>Latest</option>
+                                    <option>Most Reviewed</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="flex flex-wrap justify-between gap-y-9">
+                        <div>
+                            <a href="./pages/productDetailPage.html">
+                                <img src="../img/casual/img 2.png" class="w-full pb-[16px]" alt="img">
+                            </a>
+                            <a href="./pages/productDetailPage.html">
+                                <h6 class="text-[20px] font-bold pb-[8px] hover:underline">T-shirt with Tape Details</h6>
+                            </a>
+                            <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span class="text-black ml-[12px]">4.5/5</span>
+                            </div>
+                            <p class="text-[24px] font-bold">$120</p>
+                        </div>                       
+                        <div>
+                            <a href="./pages/productDetailPage.html">
+                                <img src="../img/casual/img 3.png" class="w-full pb-[16px]" alt="img">
+                            </a>
+                            <a href="./pages/productDetailPage.html">
+                                <h6 class="text-[20px] font-bold pb-[8px] hover:underline">T-shirt with Tape Details</h6>
+                            </a>
+                            <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span class="text-black ml-[12px]">4.5/5</span>
+                            </div>
+                            <p class="text-[24px] font-bold">$120</p>
+                        </div>                       
+                        <div>
+                            <a href="./pages/productDetailPage.html">
+                                <img src="../img/casual/img 4.png" class="w-full pb-[16px]" alt="img">
+                            </a>
+                            <a href="./pages/productDetailPage.html">
+                                <h6 class="text-[20px] font-bold pb-[8px] hover:underline">T-shirt with Tape Details</h6>
+                            </a>
+                            <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span class="text-black ml-[12px]">4.5/5</span>
+                            </div>
+                            <p class="text-[24px] font-bold">$120</p>
+                        </div>                       
+                        <div>
+                            <a href="./pages/productDetailPage.html">
+                                <img src="../img/casual/img 5.png" class="w-full pb-[16px]" alt="img">
+                            </a>
+                            <a href="./pages/productDetailPage.html">
+                                <h6 class="text-[20px] font-bold pb-[8px] hover:underline">T-shirt with Tape Details</h6>
+                            </a>
+                            <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span class="text-black ml-[12px]">4.5/5</span>
+                            </div>
+                            <p class="text-[24px] font-bold">$120</p>
+                        </div>                       
+                        <div>
+                            <a href="./pages/productDetailPage.html">
+                                <img src="../img/casual/img 6.png" class="w-full pb-[16px]" alt="img">
+                            </a>
+                            <a href="./pages/productDetailPage.html">
+                                <h6 class="text-[20px] font-bold pb-[8px] hover:underline">T-shirt with Tape Details</h6>
+                            </a>
+                            <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span class="text-black ml-[12px]">4.5/5</span>
+                            </div>
+                            <p class="text-[24px] font-bold">$120</p>
+                        </div>                       
+                        <div>
+                            <a href="./pages/productDetailPage.html">
+                                <img src="../img/casual/img 7.png" class="w-full pb-[16px]" alt="img">
+                            </a>
+                            <a href="./pages/productDetailPage.html">
+                                <h6 class="text-[20px] font-bold pb-[8px] hover:underline">T-shirt with Tape Details</h6>
+                            </a>
+                            <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span class="text-black ml-[12px]">4.5/5</span>
+                            </div>
+                            <p class="text-[24px] font-bold">$120</p>
+                        </div>                       
+                        <div>
+                            <a href="./pages/productDetailPage.html">
+                                <img src="../img/casual/img 8.png" class="w-full pb-[16px]" alt="img">
+                            </a>
+                            <a href="./pages/productDetailPage.html">
+                                <h6 class="text-[20px] font-bold pb-[8px] hover:underline">T-shirt with Tape Details</h6>
+                            </a>
+                            <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span class="text-black ml-[12px]">4.5/5</span>
+                            </div>
+                            <p class="text-[24px] font-bold">$120</p>
+                        </div>                       
+                        <div>
+                            <a href="./pages/productDetailPage.html">
+                                <img src="../img/casual/img 9.png" class="w-full pb-[16px]" alt="img">
+                            </a>
+                            <a href="./pages/productDetailPage.html">
+                                <h6 class="text-[20px] font-bold pb-[8px] hover:underline">T-shirt with Tape Details</h6>
+                            </a>
+                            <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span class="text-black ml-[12px]">4.5/5</span>
+                            </div>
+                            <p class="text-[24px] font-bold">$120</p>
+                        </div>                       
+                        <div>
+                            <a href="./pages/productDetailPage.html">
+                                <img src="../img/casual/img.png" class="w-full pb-[16px]" alt="img">
+                            </a>
+                            <a href="./pages/productDetailPage.html">
+                                <h6 class="text-[20px] font-bold pb-[8px] hover:underline">T-shirt with Tape Details</h6>
+                            </a>
+                            <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span class="text-black ml-[12px]">4.5/5</span>
+                            </div>
+                            <p class="text-[24px] font-bold">$120</p>
+                        </div>
+                        <div>
+                            <a href="./pages/productDetailPage.html">
+                                <img src="../img/casual/img 2.png" class="w-full pb-[16px]" alt="img">
+                            </a>
+                            <a href="./pages/productDetailPage.html">
+                                <h6 class="text-[20px] font-bold pb-[8px] hover:underline">T-shirt with Tape Details</h6>
+                            </a>
+                            <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span class="text-black ml-[12px]">4.5/5</span>
+                            </div>
+                            <p class="text-[24px] font-bold">$120</p>
+                        </div>                       
+                        <div>
+                            <a href="./pages/productDetailPage.html">
+                                <img src="../img/casual/img 3.png" class="w-full pb-[16px]" alt="img">
+                            </a>
+                            <a href="./pages/productDetailPage.html">
+                                <h6 class="text-[20px] font-bold pb-[8px] hover:underline">T-shirt with Tape Details</h6>
+                            </a>
+                            <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span class="text-black ml-[12px]">4.5/5</span>
+                            </div>
+                            <p class="text-[24px] font-bold">$120</p>
+                        </div>                     
+                        <div>
+                            <a href="./pages/productDetailPage.html">
+                                <img src="../img/casual/img 3.png" class="w-full pb-[16px]" alt="img">
+                            </a>
+                            <a href="./pages/productDetailPage.html">
+                                <h6 class="text-[20px] font-bold pb-[8px] hover:underline">T-shirt with Tape Details</h6>
+                            </a>
+                            <div class="text-yellow-400 text-[14px] flex items-center gap-[6px] mb-[8px]">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star-half"></i>
+                                <span class="text-black ml-[12px]">4.5/5</span>
+                            </div>
+                            <p class="text-[24px] font-bold">$120</p>
+                        </div>                     
+                    </div>
+                    <hr class="mb-5 mt-8 border-gray-200">
+                    <div class="w-full flex justify-between items-center">
+                        <button class="text-sm flex items-center gap-2 text-black border border-gray-200 py-2 px-4 rounded-md hover:cursor-pointer">
+                            <i class="fa-solid fa-arrow-left"></i>
+                            <p>Previous</p>
+                        </button>
+                        <div class="flex items-center gap-[2px]">
+                            <button class="w-10 h-10 text-[#00000080] text-sm rounded-md hover:cursor-pointer hover:bg-[#0000000F] hover:text-black">1</button>
+                            <button class="w-10 h-10 text-[#00000080] text-sm rounded-md hover:cursor-pointer hover:bg-[#0000000F] hover:text-black">2</button>
+                            <button class="w-10 h-10 text-[#00000080] text-sm rounded-md hover:cursor-pointer hover:bg-[#0000000F] hover:text-black">3</button>
+                            <button class="w-10 h-10 text-[#00000080] text-sm rounded-md hover:cursor-pointer hover:bg-[#0000000F] hover:text-black">...</button>
+                            <button class="w-10 h-10 text-[#00000080] text-sm rounded-md hover:cursor-pointer hover:bg-[#0000000F] hover:text-black">8</button>
+                            <button class="w-10 h-10 text-[#00000080] text-sm rounded-md hover:cursor-pointer hover:bg-[#0000000F] hover:text-black">9</button>
+                            <button class="w-10 h-10 text-[#00000080] text-sm rounded-md hover:cursor-pointer hover:bg-[#0000000F] hover:text-black">10</button>
+                        </div>
+                        <button class="text-sm flex items-center gap-2 text-black border border-gray-200 py-2 px-4 rounded-md hover:cursor-pointer">
+                            <p>Next</p>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- section-two -->
+    <section>
+        <!-- Problem in relative -->
+        <div class="container mx-auto relative">
+            <div class="py-[43px] px-[64px] rounded-[20px] bg-[#000000] flex justify-between mt-[80px] mb-[-6%]">
+                <h6 class="text-[40px] w-[44%] text-white font-bold font-[integral-cf]">STAY UPTO DATE ABOUT OUR LATEST OFFERS</h6>
+                <div class="flex flex-col items-end gap-[14px]">
+                    <div class="w-[348px] bg-white px-[16px] py-[12px] rounded-full flex gap-[12px] items-center">
+                        <i class="fa-solid fa-envelope text-[20px] text-[#00000066]"></i>
+                        <input type="mail" class="text-[16px] focus:outline-none" placeholder="Enter your email address">
+                    </div>
+                    <button class="text-[16px] font-medium w-[348px] bg-white px-[16px] py-[12px] rounded-full cursor-pointer">Subscribe to Newsletter</button>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <footer class="pt-[180px] pb-[80px] bg-[#F0F0F0]">
+        <div class="container mx-auto">
+            <!-- footer-top -->
+            <div class="flex justify-between">
+                <div class="w-[16.4%]">
+                    <h6 class="text-[33.45px] font-bold font-[integral-cf] mb-[25px]">SHOP.CO</h6>
+                    <p class="text-[14px] mb-[35px] text-[#00000099]">We have clothes that suits your style and which you’re proud to wear. From women to men.</p>
+                    <div class="flex gap-[12px] items-center">
+                        <div class="w-[28px] h-[28px] rounded-full border-1 border-[#00000033] flex items-center justify-center duration-[.6s] cursor-pointer footer-icons">
+                            <i class="fa-brands fa-twitter duration-[.6s]"></i>
+                        </div>
+                        <div class="w-[28px] h-[28px] rounded-full border-1 border-[#00000033] flex items-center justify-center duration-[.6s] cursor-pointer footer-icons">
+                            <i class="fa-brands fa-facebook-f duration-[.6s]"></i>
+                        </div>
+                        <div class="w-[28px] h-[28px] rounded-full border-1 border-[#00000033] flex items-center justify-center duration-[.6s] cursor-pointer footer-icons">
+                            <i class="fa-brands fa-instagram duration-[.6s]"></i>
+                        </div>
+                        <div class="w-[28px] h-[28px] rounded-full border-1 border-[#00000033] flex items-center justify-center duration-[.6s] cursor-pointer footer-icons">
+                            <i class="fa-brands fa-github duration-[.6s]"></i>
+                        </div>
+                    </div>
+                </div>
+                <ul>
+                    <li class="text-[16px] font-medium uppercase mb-[26px]">Company</li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">About</a></li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Features</a></li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Works</a></li>
+                    <li><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Career</a></li>
+                </ul>
+                <ul>
+                    <li class="text-[16px] font-medium uppercase mb-[26px]">Help</li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Customer Support</a></li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Delivery Details</a></li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Terms & Conditions</a></li>
+                    <li><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Privacy Policy</a></li>
+                </ul>
+                <ul>
+                    <li class="text-[16px] font-medium uppercase mb-[26px]">FAQ</li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Account</a></li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Manage Deliveries</a></li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Orders</a></li>
+                    <li><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Payments</a></li>
+                </ul>
+                <ul>
+                    <li class="text-[16px] font-medium uppercase mb-[26px]">Resources</li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Free eBooks</a></li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Development Tutorial</a></li>
+                    <li class=" mb-[18px]"><a href="#" class="text-[16px] text-[#00000099] hover:text-black">How to - Blog</a></li>
+                    <li><a href="#" class="text-[16px] text-[#00000099] hover:text-black">Youtube Playlist</a></li>
+                </ul>
+            </div>
+            <hr class="mt-[50px] mb-[20px] text-[#0000001A]">
+            <!-- footer-bottom -->
+            <div class="flex justify-between items-center">
+                <div class="text-[14px] text-[#00000099]">
+                    Shop.co © 2000-2023, All Rights Reserved
+                </div>
+                <div class="flex gap-[12px] ">
+                    <a href="#">
+                        <img src="../img/badges/Badge.png" alt="img">
+                    </a>
+                    <a href="#">
+                        <img src="../img/badges/Badge (1).png" alt="img">
+                    </a>
+                    <a href="#">
+                        <img src="../img/badges/Badge (2).png" alt="img">
+                    </a>
+                    <a href="#">
+                        <img src="../img/badges/Badge (3).png" alt="img">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Tahsin Dipto -->
+</body>
+</html>
